@@ -1,0 +1,38 @@
+
+.content{
+    display: flex;
+}
+nav,section{
+    width: 100%;
+    display: flex;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+   ul{
+    flex-wrap: wrap;
+   }
+   li{
+    width: 100%;
+   }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width:600px) {
+   ul{
+    flex-wrap: wrap;
+   }
+   li{
+    width: 100%;
+   }
+}
+article{
+    display: flex;
+}
+footer{
+    display: flex;
+}
